@@ -1,4 +1,4 @@
-package com.example.SpringTestProject270920.model;
+package com.example.spring_test_project_270920.model;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;

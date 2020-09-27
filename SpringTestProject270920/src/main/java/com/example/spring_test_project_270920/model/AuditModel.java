@@ -1,4 +1,4 @@
-package com.example.SpringTestProject270920.model;
+package com.example.spring_test_project_270920.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.annotation.CreatedDate;

@@ -1,4 +1,9 @@
-package com.example.SpringTestProject270920.repository;
+package com.example.spring_test_project_270920.repository;
 
-public interface QuestionRepository {
+import com.example.spring_test_project_270920.model.Question;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface QuestionRepository extends JpaRepository<Question, Long> {
 }
